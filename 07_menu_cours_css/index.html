@@ -1,0 +1,105 @@
+<!--les lien permettent de se déplacer à l'intérieur des rubriques d'un site. ce sont pour les principaux des liens de navigation et on les regroupe dans un menu (barre de navigation) -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="style.css">
+  <title>Menu de navigation et propriétés CSS</title>
+</head>
+<body>
+
+    <!--la balise NAV est dédiée à la navigation du site -->
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Edito</a>
+        <a href="#">Panier</a>
+        <a href="#">FAQ</a>
+        <a href="#">Nous contacter</a>
+    </nav><br />
+
+    <section class="container">
+        <h3>Aide mémoire des sélecteurs CSS déja vus</h3>
+        <ul>
+            <li><mark>*</mark> sélectionne Tous les élément de la page html</li>
+            <li><mark>.ma-jolie-nav</mark> sélectionne Tous les élément ayant le nom de la class "ma-jolie-nav"</li>
+            <li><mark>#mon-unique-id</mark> sélectionne Tous les élément ayant le nom de "mon-unique-id"</li>
+            <li><mark>div, article, aside</mark> sélectionne toutes les balises &lt;div>, &lt;article> ET &lt;aside></li>
+            <li><mark>nav a</mark>sélectionne les liens &lt;nav></li>
+            <li>nav a<mark>:hover</mark> sélectionne tous les liens de la nav et active une animation lors du survol de la souris</li>
+        </ul><br />
+    </section>
+
+    <div class="container1">
+        <section class="container2">
+            <h3>Propriétés CSS utilisées dans cette section dans cette page</h3>
+            <h4>Decrivez leur usage et leurs valeurs possibles</h4>
+            <ol>
+                <li>background: couleur du fond de l'élément</li>
+                <li>color : couleur de la police</li>
+                <li>float: effet flottant</li>
+                <li>font-family: police</li>
+                <li>font-size: taille de la police</li>
+                <li>hauteur de l'élément</li>
+                <li>left: position à partir de la gauche de la feêtre</li>
+                <li>line-height: hauteur de l'interligne</li>
+                <li>margin: marge extérieures</li>
+                <li>padding: marges intérieurs</li>
+                <li>position: position de l'élément dans la page (on a utilisé que la valeur (fixed) pour l'instant)</li>
+                <li>text-align: alignement du texte</li>
+                <li>text-decoration: changement des valeurs héritées (ici le souligné qui est standard pour les liens sous tous les navigateurs est supprimé)</li>
+                <li>top: position à partir du haut de la fenêtre</li>
+                <li>transition: temps de transition lors d'une animation (ici sur les liens de la barre de menus)</li>
+                <li>width: largeur de l'élément par rapport a la taille de la fenêtre si on indique une valeur relative (%, em, ...)</li>
+            </ol>
+        </section>
+
+        <section class="container2">
+            <h3>Propriétés CSS à rechercher</h3>
+            <h4>Recherchez les propriétes ci dessous, faites des tests avec sur cette page depuis la console de débuggage pour tester les valeurs qu'elles peuvent prendre</h4>
+            <ol>
+                <li>font-weight:</li>
+                <li>letter-spacing:</li>
+                <li>word-spacing:</li>
+                <li>text-shadow: Définit les effets d'ombre à appliquer au texte de l'élément</li>
+                <li>background-image:Image d'arrière-plan</li>
+                <li>background-size: taille de l'arière plan</li>
+                <li>opacity:transparence/opacité de l'élément.</li>
+                <li>border-style: style des bordures</li>
+                <li>box-shadow:</li>
+                <li>list-style-image:</li>
+                <li>border: caractéristique de bordure</li>
+                <li>border-radius:</li>
+                <li>border-width: Epaisseur des bordures</li>
+                <li>background-color: Couleur de l'arrière-plan</li>
+                <li>!important;: Donne la priorité à une définition CSS</li>
+            </ol>
+        </section>
+        <div class="clear"></div>
+    </div><!-- fin DIV CONTAINER1 -->
+
+    <section class="container containe4"
+    <h3>Pour aller plus loin en CSS, quelques pistes..</h3>
+    <ul>
+        <li><a href="http://developer.mozilla.org/en-US/docs/Web/CSS">MDN le site officiel</a></li>
+            <li><a href="https://tympanus.net/codrops/">Codrops, références, tutos...</a></li>
+            <li><a href="https://fluckeout.github.io/">Jeu avec les sélecteur CSS</a></li>
+            <li><a href="https://flexboxfroggy.com/">Un autre jeu sur le système des flexbox"</a></li>
+            <li><a href="https://viewportsizes.com/">Différentes taille d'écrans</a></li>
+            <li><a href="https://fr.learnlayout.com/">Tutos simples en français</a></li>
+            <li><a href="https://purecss.io">Ecore des tutos</a></li>
+            <li><a href="https://www.w3c.org/Style/CSS/learning">Le site du W3C (partie CSS)</a></li>
+        </ul>
+    </section>
+
+
+
+
+
+
+
+</body>
+
+</html>
