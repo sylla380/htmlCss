@@ -1,0 +1,12 @@
+h1, h3, dic, a, p, span, aside, section{
+    text-align: center;
+    border: 1px solid;
+}
+
+a{
+    display: block;
+}
+
+h1{
+    display: inline;
+}
