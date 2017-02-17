@@ -1,0 +1,86 @@
+
+header{
+        height: 250px;
+        width: 100%;
+        background-size: cover;
+        background-image: url(../img/back.jpeg);
+        background-repeat: no-repeat;
+        font-family: 'Pacifico', cursive;
+        font-size: 48px;
+        color: blue;
+    }
+    /*style des éléments du header*/
+    .imghead{
+        height: 210px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        margin-bottom: 2%;
+        background-position: center;
+    }
+    .imagehead p{
+        color: white;
+        background-color: none;
+        width: 75%;
+        margin: auto;
+        margin-top: 15%
+
+    }
+body{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: 'Gloria Hallelujah', cursive;
+    background: #EFECCA;
+}
+
+#logo1{
+    background-image: url("../img/logo.png");
+    background-repeat: no-repeat;
+    text-align: center;
+
+
+
+}
+#titre{
+    ;
+}
+
+#ardoise{
+    padding: 4.5% 0;
+    background-image: url("../img/tableau.png");
+    font-family: 'Exo', sans-serif;
+    color: white;
+    font-size: 3rem;
+    background-position: bottom;
+    background-size: cover;
+
+}
+
+#ardoise span{
+    float: right;
+    color: yellow;
+    padding-right: 10%
+}
+#ardoise li:before{
+    padding-right: 2%;
+    content: "♣";
+}
+ul li{
+    list-style:none;
+    text-align: left;
+}
+
+#descriptif{
+    float: left;
+    padding: 9%;
+    background-color: #EFECCA;
+}
+.texte{
+font-family: 'La Belle Aurore', cursive;
+font-size:4.5rem;
+}
+@media screen and (max-width: 768px){
+    .texte{
+        font-size:2rem;
+    }
+}
