@@ -8,6 +8,7 @@ header{
         font-family: 'Pacifico', cursive;
         font-size: 48px;
         color: blue;
+        padding: 0;
     }
     /*style des éléments du header*/
     .imghead{
@@ -36,18 +37,19 @@ body{
 #logo1{
     background-image: url("../img/logo.png");
     background-repeat: no-repeat;
-    text-align: center;
+    background-size: 250px;
+    float: left;
 
 
 
 }
 #titre{
-    ;
+    height: 225px;
 }
 
 #ardoise{
     padding: 4.5% 0;
-    background-image: url("../img/tableau.png");
+    background-image: url("../img/tableau.jpg");
     font-family: 'Exo', sans-serif;
     color: white;
     font-size: 3rem;
@@ -69,6 +71,38 @@ ul li{
     list-style:none;
     text-align: left;
 }
+ul#menu {
+    height: 35px;
+    margin: 0;
+    padding: 0;
+    background-color: #B9121B;
+    list-style-type: none;
+}
+
+ul#menu li {
+    float: left;
+    text-align: center;
+    width: 50%;
+
+}
+ul#menu li a {
+    /*width: 580px;*/
+    line-height: 25px;
+    font-size: 2.2em;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: #B9121B;
+    display: block;
+    text-decoration: none;
+    border-right: 2px solid #EFECCA;
+    background-color: #FEA101;
+}
+
+a {
+    color: -webkit-link;
+    text-decoration: underline;
+    cursor: auto;
+}
 
 #descriptif{
     float: left;
@@ -83,4 +117,3 @@ font-size:4.5rem;
     .texte{
         font-size:2rem;
     }
-}
